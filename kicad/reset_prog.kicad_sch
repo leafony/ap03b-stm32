@@ -3510,7 +3510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1SS387"
+		(property "Value" "1SS387,L3F"
 			(at 262.89 99.0599 90)
 			(effects
 				(font
@@ -3528,7 +3528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/403/1SS387.pdf"
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/1SS387_datasheet_en_20240617.pdf"
 			(at 260.35 97.79 0)
 			(effects
 				(font
@@ -3556,6 +3556,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 260.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1SS387,L3F"
+			(at 260.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Toshiba Semiconductor and Storage"
 			(at 260.35 97.79 0)
 			(effects
 				(font
@@ -3664,7 +3682,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF(K)25V"
+		(property "Value" "100nF(K)25V X5R"
 			(at 162.56 125.7299 0)
 			(effects
 				(font
@@ -3682,7 +3700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61E104KE14-01.pdf"
 			(at 158.75 124.46 0)
 			(effects
 				(font
@@ -3691,7 +3709,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0201"
+			(at 158.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033R61E104KE14D"
+			(at 158.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 158.75 124.46 0)
 			(effects
 				(font
@@ -3932,7 +3968,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R(J)"
+		(property "Value" "100R(F)"
 			(at 125.73 105.4099 0)
 			(effects
 				(font
@@ -3950,7 +3986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 123.19 104.14 0)
 			(effects
 				(font
@@ -3959,7 +3995,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 100 OHM 1% 1/16W 0402"
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-07100RL"
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
 			(at 123.19 104.14 0)
 			(effects
 				(font
@@ -4134,7 +4188,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k(J)"
+		(property "Value" "10k(F)"
 			(at 139.7 57.1499 0)
 			(effects
 				(font
@@ -4152,7 +4206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 137.16 55.88 0)
 			(effects
 				(font
@@ -4161,7 +4215,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
+			(at 137.16 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 137.16 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
 			(at 137.16 55.88 0)
 			(effects
 				(font
@@ -4222,7 +4294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rohm.co.jp/datasheet?p=SML-A12U8T&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-a12_a13.pdf"
 			(at 71.12 116.84 0)
 			(effects
 				(font
@@ -4231,7 +4303,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED RED CLEAR 1611 SMD R/A"
+			(at 71.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SML-A12U8TT86"
+			(at 71.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Rohm Semiconductor"
 			(at 71.12 116.84 0)
 			(effects
 				(font
@@ -4291,7 +4381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.nidec-copal-electronics.com/e/catalog/switch/cus.pdf"
+		(property "Datasheet" "https://www.nidec-copal-electronics.com/eng/wp-content/uploads/2020/02/cus_e.pdf"
 			(at 58.42 96.52 0)
 			(effects
 				(font
@@ -4301,7 +4391,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SWITCH SLIDE SPDT 300MA 4V"
+			(at 58.42 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CUS-12TB"
+			(at 58.42 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Nidec Components Corporation"
 			(at 58.42 96.52 0)
 			(effects
 				(font
@@ -4366,7 +4474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/245500"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE3.pdf"
 			(at 45.72 55.88 0)
 			(effects
 				(font
@@ -4376,6 +4484,24 @@
 			)
 		)
 		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
+			(at 45.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EVQ-P7B01P"
+			(at 45.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic Electronic Components"
 			(at 45.72 55.88 0)
 			(effects
 				(font
@@ -4489,7 +4615,7 @@
 				)
 			)
 		)
-		(property "Value" "470nF(K)25V"
+		(property "Value" "470nF(K)50V X5R"
 			(at 237.49 100.33 90)
 			(effects
 				(font
@@ -4506,7 +4632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H474KE11-01.pdf"
 			(at 237.49 105.41 0)
 			(effects
 				(font
@@ -4515,7 +4641,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.47UF 50V X5R 0402"
+			(at 237.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H474KE11D"
+			(at 237.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 237.49 105.41 0)
 			(effects
 				(font
@@ -4577,7 +4721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rohm.co.jp/datasheet?p=RE1C002UN&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002un-e.pdf"
 			(at 127 71.12 0)
 			(effects
 				(font
@@ -4588,6 +4732,24 @@
 			)
 		)
 		(property "Description" "MOSFET N-CH 20V 200MA EMT3F"
+			(at 127 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RE1C002UNTCL"
+			(at 127 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Rohm Semiconductor"
 			(at 127 71.12 0)
 			(effects
 				(font
@@ -4765,7 +4927,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k(J)"
+		(property "Value" "100k(F)"
 			(at 226.06 97.7899 0)
 			(effects
 				(font
@@ -4783,7 +4945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 223.52 96.52 0)
 			(effects
 				(font
@@ -4792,7 +4954,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 100K OHM 1% 1/16W 0402"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-07100KL"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
 			(at 223.52 96.52 0)
 			(effects
 				(font
@@ -4851,7 +5031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fts3a4751"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ts3a4751"
 			(at 166.37 83.82 0)
 			(effects
 				(font
@@ -4862,6 +5042,24 @@
 			)
 		)
 		(property "Description" "IC SW SPST-NOX4 900MOHM 14QFN"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TS3A4751RUCR"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
 			(at 166.37 83.82 0)
 			(effects
 				(font
@@ -4940,7 +5138,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k(J)"
+		(property "Value" "1k(F)"
 			(at 73.66 107.9499 0)
 			(effects
 				(font
@@ -4958,7 +5156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 71.12 106.68 0)
 			(effects
 				(font
@@ -4967,7 +5165,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1K OHM 1% 1/16W 0402"
+			(at 71.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-071KL"
+			(at 71.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
 			(at 71.12 106.68 0)
 			(effects
 				(font
@@ -5026,7 +5242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 251.46 105.41 0)
 			(effects
 				(font
@@ -5035,7 +5251,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 0 OHM JUMPER 1/16W 0402"
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
 			(at 251.46 105.41 0)
 			(effects
 				(font

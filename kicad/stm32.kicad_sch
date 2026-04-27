@@ -4571,7 +4571,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k(J)"
+		(property "Value" "10k(F)"
 			(at 187.96 135.8899 0)
 			(effects
 				(font
@@ -4589,7 +4589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 185.42 134.62 0)
 			(effects
 				(font
@@ -4598,7 +4598,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
+			(at 185.42 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 185.42 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
 			(at 185.42 134.62 0)
 			(effects
 				(font
@@ -4640,7 +4658,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k(J)"
+		(property "Value" "10k(F)"
 			(at 83.82 100.838 90)
 			(effects
 				(font
@@ -4658,7 +4676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 86.36 97.79 0)
 			(effects
 				(font
@@ -4667,7 +4685,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
+			(at 86.36 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 86.36 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
 			(at 86.36 97.79 0)
 			(effects
 				(font
@@ -4709,7 +4745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF(K)25V"
+		(property "Value" "100nF(K)25V X5R"
 			(at 143.51 71.12 90)
 			(effects
 				(font
@@ -4727,7 +4763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61E104KE14-01.pdf"
 			(at 147.32 64.77 0)
 			(effects
 				(font
@@ -4736,7 +4772,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0201"
+			(at 147.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033R61E104KE14D"
+			(at 147.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 147.32 64.77 0)
 			(effects
 				(font
@@ -4778,7 +4832,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF(K)16V"
+		(property "Value" "1uF(K)16V X6S"
 			(at 110.49 71.12 90)
 			(effects
 				(font
@@ -4796,7 +4850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C81C105KE11-01.pdf"
 			(at 114.3 64.77 0)
 			(effects
 				(font
@@ -4805,7 +4859,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 1UF 16V X6S 0402"
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155C81C105KE11D"
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 114.3 64.77 0)
 			(effects
 				(font
@@ -4847,7 +4919,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF(M)25V"
+		(property "Value" "10uF(K)25V X5R"
 			(at 64.77 52.07 90)
 			(effects
 				(font
@@ -4865,7 +4937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E106KA73-01.pdf"
 			(at 68.58 45.72 0)
 			(effects
 				(font
@@ -4874,7 +4946,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R61E106KA73D"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 68.58 45.72 0)
 			(effects
 				(font
@@ -5064,7 +5154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 137.16 179.07 0)
 			(effects
 				(font
@@ -5073,7 +5163,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 0 OHM JUMPER 1/16W 0402"
+			(at 137.16 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 137.16 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
 			(at 137.16 179.07 0)
 			(effects
 				(font
@@ -5143,7 +5251,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 160KB RAM, 80 MHz, 1.71-3.6V, 52 GPIO, UFBGA64"
+		(property "Description" "IC MCU 32BIT 512KB FLASH 64UFBGA"
+			(at 127 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "STM32L452REI6"
+			(at 127 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "STMicroelectronics"
 			(at 127 124.46 0)
 			(effects
 				(font
@@ -5371,7 +5497,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "NX2012SA-32.768KHZ-EXS00A-MU00530"
+		(property "Value" "MU00530-32.768K"
 			(at 37.846 139.954 90)
 			(effects
 				(font
@@ -5389,7 +5515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.jp/ja/models/9172010"
+		(property "Datasheet" "https://www.ndk.com/images/products/catalog/c_NX2012SA-EXS00A_e.pdf"
 			(at 82.55 138.43 0)
 			(effects
 				(font
@@ -5399,6 +5525,24 @@
 			)
 		)
 		(property "Description" "CRYSTAL 32.7680KHZ 7PF SMD"
+			(at 82.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MU00530-32.768K"
+			(at 82.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "NDK America, Inc."
 			(at 82.55 138.43 0)
 			(effects
 				(font
@@ -5573,7 +5717,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k(J)"
+		(property "Value" "10k(F)"
 			(at 175.26 135.8899 0)
 			(effects
 				(font
@@ -5591,7 +5735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 172.72 134.62 0)
 			(effects
 				(font
@@ -5600,7 +5744,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
+			(at 172.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 172.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
 			(at 172.72 134.62 0)
 			(effects
 				(font
@@ -5708,7 +5870,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF(K)25V"
+		(property "Value" "100nF(K)25V X5R"
 			(at 96.52 52.07 90)
 			(effects
 				(font
@@ -5726,7 +5888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61E104KE14-01.pdf"
 			(at 100.33 45.72 0)
 			(effects
 				(font
@@ -5735,7 +5897,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0201"
+			(at 100.33 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033R61E104KE14D"
+			(at 100.33 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 100.33 45.72 0)
 			(effects
 				(font
@@ -5777,7 +5957,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6pF(D)50V"
+		(property "Value" "6pF(D)50V C0G/NP0"
 			(at 99.06 156.21 90)
 			(effects
 				(font
@@ -5795,7 +5975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H6R0DA01-01.pdf"
 			(at 102.87 151.13 0)
 			(effects
 				(font
@@ -5804,7 +5984,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 6PF 50V C0G/NP0 0402"
+			(at 102.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1555C1H6R0DA01D"
+			(at 102.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 102.87 151.13 0)
 			(effects
 				(font
@@ -5846,7 +6044,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF(K)25V"
+		(property "Value" "100nF(K)25V X5R"
 			(at 76.2 52.07 90)
 			(effects
 				(font
@@ -5864,7 +6062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61E104KE14-01.pdf"
 			(at 80.01 45.72 0)
 			(effects
 				(font
@@ -5873,7 +6071,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0201"
+			(at 80.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033R61E104KE14D"
+			(at 80.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 80.01 45.72 0)
 			(effects
 				(font
@@ -5932,7 +6148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 170.18 57.15 0)
 			(effects
 				(font
@@ -5941,7 +6157,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 0 OHM JUMPER 1/16W 0402"
+			(at 170.18 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 170.18 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
 			(at 170.18 57.15 0)
 			(effects
 				(font
@@ -5982,7 +6216,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "DNP"
 			(at 151.13 150.114 90)
 			(effects
 				(font
@@ -6008,7 +6242,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 0402 DNP"
+			(at 151.13 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 151.13 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
 			(at 151.13 152.4 0)
 			(effects
 				(font
@@ -6116,7 +6368,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF(K)25V"
+		(property "Value" "100nF(K)25V X5R"
 			(at 86.36 52.07 90)
 			(effects
 				(font
@@ -6134,7 +6386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61E104KE14-01.pdf"
 			(at 90.17 45.72 0)
 			(effects
 				(font
@@ -6143,7 +6395,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0201"
+			(at 90.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033R61E104KE14D"
+			(at 90.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 90.17 45.72 0)
 			(effects
 				(font
@@ -6250,7 +6520,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "DNP"
 			(at 151.13 160.274 90)
 			(effects
 				(font
@@ -6276,7 +6546,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 0402 DNP"
+			(at 151.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 151.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
 			(at 151.13 162.56 0)
 			(effects
 				(font
@@ -6318,7 +6606,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6pF(D)50V"
+		(property "Value" "6pF(D)50V C0G/NP0"
 			(at 88.9 156.21 90)
 			(effects
 				(font
@@ -6336,7 +6624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H6R0DA01-01.pdf"
 			(at 92.71 151.13 0)
 			(effects
 				(font
@@ -6345,7 +6633,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 6PF 50V C0G/NP0 0402"
+			(at 92.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1555C1H6R0DA01D"
+			(at 92.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 92.71 151.13 0)
 			(effects
 				(font
@@ -6453,7 +6759,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "DNP"
 			(at 170.18 63.5 90)
 			(effects
 				(font
@@ -6479,7 +6785,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 0402 DNP"
+			(at 170.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 170.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
 			(at 170.18 67.31 0)
 			(effects
 				(font
@@ -6586,7 +6910,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "DNP"
 			(at 152.4 170.434 90)
 			(effects
 				(font
@@ -6612,7 +6936,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 0402 DNP"
+			(at 152.4 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 152.4 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
 			(at 152.4 172.72 0)
 			(effects
 				(font
@@ -6803,7 +7145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/info/ja/catalog/datasheets/beads_commercial_power_mpz1005_ja.pdf?ref_disty=digikey"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/emc_emc_mpz_en.pdf"
 			(at 153.67 57.15 0)
 			(effects
 				(font
@@ -6813,6 +7155,24 @@
 			)
 		)
 		(property "Description" "FERRITE BEAD 30 OHM 0402 1LN"
+			(at 153.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MPZ1005S300CT000"
+			(at 153.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TDK Corporation"
 			(at 153.67 57.15 0)
 			(effects
 				(font
@@ -6921,7 +7281,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF(K)25V"
+		(property "Value" "100nF(K)25V X5R"
 			(at 90.17 78.7399 0)
 			(effects
 				(font
@@ -6939,7 +7299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61E104KE14-01.pdf"
 			(at 86.36 77.47 0)
 			(effects
 				(font
@@ -6948,7 +7308,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0201"
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033R61E104KE14D"
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 86.36 77.47 0)
 			(effects
 				(font
