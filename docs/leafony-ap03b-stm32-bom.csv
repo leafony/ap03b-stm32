@@ -4,7 +4,6 @@
 "C5","1uF(K)16V X6S","https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C81C105KE11-01.pdf","Capacitor_SMD:C_0402_1005Metric","1","","GRM155C81C105KE11D","Murata Electronics"
 "C9","10uF(K)25V X5R","https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E106KA73-01.pdf","Capacitor_SMD:C_0603_1608Metric","1","","GRM188R61E106KA73D","Murata Electronics"
 "C11","470nF(K)50V X5R","https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H474KE11-01.pdf","Capacitor_SMD:C_0402_1005Metric","1","","GRM155R61H474KE11D","Murata Electronics"
-"CN1","Leafony Bus","","Leafony:CN_F29_B29","1","","",""
 "D1","SML-A12U8TT86","https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-a12_a13.pdf","Leafony:LED_SML-A12_ROM","1","","SML-A12U8TT86","Rohm Semiconductor"
 "D2","1SS387,L3F","https://toshiba.semicon-storage.com/info/1SS387_datasheet_en_20240617.pdf","Diode_SMD:D_SOD-523","1","","1SS387,L3F","Toshiba Semiconductor and Storage"
 "FB1","MPZ1005S300CT000","https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/emc_emc_mpz_en.pdf","Fuse:Fuse_0402_1005Metric","1","","MPZ1005S300CT000","TDK Corporation"
