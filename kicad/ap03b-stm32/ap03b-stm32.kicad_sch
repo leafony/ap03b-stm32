@@ -1,12 +1,12 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "e2743b78-cc59-458c-8fb0-4238f348a49f")
 	(paper "A4")
 	(title_block
 		(title "Leafony AP03B STM32")
-		(date "2026-04-27")
+		(date "2026-11-07")
 		(rev "v1.0")
 		(company "mitdir Inc.")
 	)
@@ -18,49 +18,61 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#G"
 				(at 0 4.1063 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "LOGO"
 				(at 0 -4.1063 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "Leafony:LEAFONY_LOGO"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "LOGO_0_0"
@@ -259,59 +271,71 @@
 		(lib_id "Leafony:LOGO")
 		(at 190.5 172.72 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0b3951a-ebf5-4dde-831b-a382b6d75577")
 		(property "Reference" "#G1"
 			(at 190.5 168.6137 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "LOGO"
 			(at 190.5 176.8263 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Leafony:LEAFONY_LOGO"
 			(at 190.5 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 190.5 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 190.5 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project "leafony-ap03-stm32"
+			(project "ap03b-stm32"
 				(path "/e2743b78-cc59-458c-8fb0-4238f348a49f"
 					(reference "#G1")
 					(unit 1)
@@ -332,11 +356,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "044816ed-f05a-471e-b3d5-494f36c37cdc")
 		(property "Sheetname" "Reset Prog"
 			(at 40.64 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,6 +372,8 @@
 		)
 		(property "Sheetfile" "reset_prog.kicad_sch"
 			(at 40.64 56.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -354,7 +382,7 @@
 			)
 		)
 		(instances
-			(project "leafony-ap03-stm32"
+			(project "ap03b-stm32"
 				(path "/e2743b78-cc59-458c-8fb0-4238f348a49f"
 					(page "3")
 				)
@@ -374,11 +402,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7ab07cd0-7093-42dd-88d1-9ad2c99fe225")
 		(property "Sheetname" "Leafony Bus"
 			(at 40.64 64.0584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -388,6 +418,8 @@
 		)
 		(property "Sheetfile" "leafony_bus.kicad_sch"
 			(at 40.64 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -396,7 +428,7 @@
 			)
 		)
 		(instances
-			(project "leafony-ap03-stm32"
+			(project "ap03b-stm32"
 				(path "/e2743b78-cc59-458c-8fb0-4238f348a49f"
 					(page "4")
 				)
@@ -416,11 +448,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d4eb7a45-025c-4ece-b989-6e885606ee08")
 		(property "Sheetname" "STM32 MCU"
 			(at 40.64 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -430,6 +464,8 @@
 		)
 		(property "Sheetfile" "stm32.kicad_sch"
 			(at 40.64 41.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -438,7 +474,7 @@
 			)
 		)
 		(instances
-			(project "leafony-ap03-stm32"
+			(project "ap03b-stm32"
 				(path "/e2743b78-cc59-458c-8fb0-4238f348a49f"
 					(page "2")
 				)
