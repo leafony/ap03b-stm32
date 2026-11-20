@@ -5072,7 +5072,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF(K)25V X5R"
+		(property "Value" "0.1u(K)/50V/X5R"
 			(at 143.51 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5083,7 +5083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 148.2852 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5094,7 +5094,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61E104KE14-01.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/download/specsheet/CC0402KRX5R9BB104"
 			(at 147.32 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5105,7 +5105,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0201"
+		(property "Description" "CAP CER 0.1UF 50V X5R 0402"
 			(at 147.32 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5116,7 +5116,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM033R61E104KE14D"
+		(property "MPN" "CC0402KRX5R9BB104"
 			(at 147.32 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5127,7 +5127,18 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "YAGEO"
+			(at 147.32 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "JPY 3.264 / pc (500+, DigiKey Japan, 2026-11-20)"
 			(at 147.32 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5175,7 +5186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF(K)16V X6S"
+		(property "Value" "1u(K)/16V/X6S"
 			(at 110.49 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5197,7 +5208,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C81C105KE11-01.pdf"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402KRX6S7BB105"
 			(at 114.3 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5219,7 +5230,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155C81C105KE11D"
+		(property "MPN" "CC0402KRX6S7BB105"
 			(at 114.3 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5230,7 +5241,18 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "YAGEO"
+			(at 114.3 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "USD 0.17280 / pc (100+, DigiKey US, 2026-11-20)"
 			(at 114.3 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5278,7 +5300,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF(K)25V X5R"
+		(property "Value" "10u(K)/25V/X5R"
 			(at 64.77 55.372 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5300,7 +5322,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E106KA73-01.pdf"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0603KRX5R8BB106"
 			(at 68.58 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5322,7 +5344,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61E106KA73D"
+		(property "MPN" "CC0603KRX5R8BB106"
 			(at 68.58 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5333,7 +5355,18 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "YAGEO"
+			(at 68.58 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "JPY 57.43908 / pc (12000 MOQ, DigiKey Japan, 2026-11-20)"
 			(at 68.58 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6380,7 +6413,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF(K)25V X5R"
+		(property "Value" "0.1u(K)/50V/X5R"
 			(at 96.52 56.388 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6391,7 +6424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 101.2952 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6402,7 +6435,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61E104KE14-01.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/download/specsheet/CC0402KRX5R9BB104"
 			(at 100.33 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6413,7 +6446,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0201"
+		(property "Description" "CAP CER 0.1UF 50V X5R 0402"
 			(at 100.33 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6424,7 +6457,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM033R61E104KE14D"
+		(property "MPN" "CC0402KRX5R9BB104"
 			(at 100.33 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6435,7 +6468,18 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "YAGEO"
+			(at 100.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "JPY 3.264 / pc (500+, DigiKey Japan, 2026-11-20)"
 			(at 100.33 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6483,7 +6527,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6pF(D)50V C0G/NP0"
+		(property "Value" "6pF(D)/50V/C0G"
 			(at 106.426 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6505,7 +6549,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H6R0DA01-01.pdf"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402DRNPO9BN6R0"
 			(at 102.87 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6516,7 +6560,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 6PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 6PF 50V C0G/NPO 0402"
 			(at 102.87 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6527,7 +6571,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H6R0DA01D"
+		(property "MPN" "CC0402DRNPO9BN6R0"
 			(at 102.87 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6538,7 +6582,18 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "YAGEO"
+			(at 102.87 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "JPY 3.02 / pc (100+, DigiKey Japan, 2026-11-20)"
 			(at 102.87 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6586,7 +6641,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF(K)25V X5R"
+		(property "Value" "0.1u(K)/50V/X5R"
 			(at 76.2 56.388 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6597,7 +6652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.9752 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6608,7 +6663,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61E104KE14-01.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/download/specsheet/CC0402KRX5R9BB104"
 			(at 80.01 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6619,7 +6674,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0201"
+		(property "Description" "CAP CER 0.1UF 50V X5R 0402"
 			(at 80.01 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6630,7 +6685,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM033R61E104KE14D"
+		(property "MPN" "CC0402KRX5R9BB104"
 			(at 80.01 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6641,7 +6696,18 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "YAGEO"
+			(at 80.01 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "JPY 3.264 / pc (500+, DigiKey Japan, 2026-11-20)"
 			(at 80.01 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6970,7 +7036,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF(K)25V X5R"
+		(property "Value" "0.1u(K)/50V/X5R"
 			(at 86.36 56.388 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6981,7 +7047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.1352 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6992,7 +7058,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61E104KE14-01.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/download/specsheet/CC0402KRX5R9BB104"
 			(at 90.17 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7003,7 +7069,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0201"
+		(property "Description" "CAP CER 0.1UF 50V X5R 0402"
 			(at 90.17 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7014,7 +7080,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM033R61E104KE14D"
+		(property "MPN" "CC0402KRX5R9BB104"
 			(at 90.17 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7025,7 +7091,18 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "YAGEO"
+			(at 90.17 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "JPY 3.264 / pc (500+, DigiKey Japan, 2026-11-20)"
 			(at 90.17 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7252,7 +7329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6pF(D)50V C0G/NP0"
+		(property "Value" "6pF(D)/50V/C0G"
 			(at 89.154 164.846 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7274,7 +7351,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H6R0DA01-01.pdf"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402DRNPO9BN6R0"
 			(at 92.71 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7285,7 +7362,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 6PF 50V C0G/NP0 0402"
+		(property "Description" "CAP CER 6PF 50V C0G/NPO 0402"
 			(at 92.71 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7296,7 +7373,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H6R0DA01D"
+		(property "MPN" "CC0402DRNPO9BN6R0"
 			(at 92.71 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7307,7 +7384,18 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "YAGEO"
+			(at 92.71 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "JPY 3.02 / pc (100+, DigiKey Japan, 2026-11-20)"
 			(at 92.71 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8051,7 +8139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF(K)25V X5R"
+		(property "Value" "0.1u(K)/50V/X5R"
 			(at 90.17 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8062,7 +8150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 87.3252 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8073,7 +8161,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61E104KE14-01.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/download/specsheet/CC0402KRX5R9BB104"
 			(at 86.36 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8084,7 +8172,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0201"
+		(property "Description" "CAP CER 0.1UF 50V X5R 0402"
 			(at 86.36 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8095,7 +8183,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM033R61E104KE14D"
+		(property "MPN" "CC0402KRX5R9BB104"
 			(at 86.36 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8106,7 +8194,18 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "YAGEO"
+			(at 86.36 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "JPY 3.264 / pc (500+, DigiKey Japan, 2026-11-20)"
 			(at 86.36 77.47 0)
 			(hide yes)
 			(show_name no)

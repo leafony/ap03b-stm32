@@ -3922,7 +3922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF(K)25V X5R"
+		(property "Value" "0.1u(K)/50V/X5R"
 			(at 162.56 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3933,7 +3933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 159.7152 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3944,7 +3944,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61E104KE14-01.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/download/specsheet/CC0402KRX5R9BB104"
 			(at 158.75 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3955,7 +3955,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 25V X5R 0201"
+		(property "Description" "CAP CER 0.1UF 50V X5R 0402"
 			(at 158.75 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3966,7 +3966,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM033R61E104KE14D"
+		(property "MPN" "CC0402KRX5R9BB104"
 			(at 158.75 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3977,7 +3977,18 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "YAGEO"
+			(at 158.75 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "JPY 3.264 / pc (500+, DigiKey Japan, 2026-11-20)"
 			(at 158.75 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5023,7 +5034,7 @@
 				)
 			)
 		)
-		(property "Value" "470nF(K)50V X5R"
+		(property "Value" "0.47u(K)/50V/X5R"
 			(at 237.49 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5044,7 +5055,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H474KE11-01.pdf"
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC0402KRX5R9BB474"
 			(at 237.49 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5066,7 +5077,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R61H474KE11D"
+		(property "MPN" "CC0402KRX5R9BB474"
 			(at 237.49 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5077,7 +5088,18 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics"
+		(property "MANUFACTURER" "YAGEO"
+			(at 237.49 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" "JPY 19.57 / pc (100+, DigiKey Japan, 2026-11-20)"
 			(at 237.49 105.41 0)
 			(hide yes)
 			(show_name no)
