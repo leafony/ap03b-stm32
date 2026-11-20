@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Leafony AP03B STM32")
-		(date "2026-11-07")
-		(rev "v1.0")
+		(date "2026-11-20")
+		(rev "v1.1")
 		(company "mitdir Inc.")
 	)
 	(lib_symbols
@@ -4646,7 +4646,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-a12_a13.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-a12u8tt86-e.pdf"
 			(at 71.12 116.84 0)
 			(hide yes)
 			(show_name no)

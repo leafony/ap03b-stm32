@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Leafony AP03B STM32")
-		(date "2026-11-07")
-		(rev "v1.0")
+		(date "2026-11-20")
+		(rev "v1.1")
 		(company "mitdir Inc.")
 	)
 	(lib_symbols
@@ -3708,7 +3708,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "16239a47-d3d7-4701-a8f0-a314038387e7")
 		(property "Reference" "CN1"

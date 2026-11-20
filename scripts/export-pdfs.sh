@@ -16,7 +16,7 @@ mkdir -p output
 staging_dir="$(mktemp -d "$repo_dir/output/.pdf.XXXXXX")"
 trap 'rm -rf "$staging_dir"' EXIT
 project="kicad/ap03b-stm32/ap03b-stm32"
-layers="F.Cu,In1.Cu,In2.Cu,In3.Cu,In4.Cu,B.Cu,F.Silkscreen,B.Silkscreen"
+layers="F.Cu,In1.Cu,In2.Cu,B.Cu,F.Silkscreen,B.Silkscreen"
 
 "$kicad_cli" sch export pdf \
   --black-and-white --no-background-color \

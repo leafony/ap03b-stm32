@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Leafony AP03B STM32")
-		(date "2026-11-07")
-		(rev "v1.0")
+		(date "2026-11-20")
+		(rev "v1.1")
 		(company "mitdir Inc.")
 	)
 	(lib_symbols

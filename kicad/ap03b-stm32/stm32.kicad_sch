@@ -6,11 +6,126 @@
 	(paper "A4")
 	(title_block
 		(title "Leafony AP03B STM32")
-		(date "2026-11-07")
-		(rev "v1.0")
+		(date "2026-11-20")
+		(rev "v1.1")
 		(company "mitdir Inc.")
 	)
 	(lib_symbols
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -660,13 +775,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_ST_STM32L4:STM32L452REIx"
+		(symbol "Leafony:STM32L452RET6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U1"
+			(property "Reference" "U"
 				(at -10.414 -27.686 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -677,7 +792,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "STM32L452REI6"
+			(property "Value" "STM32L452RET6"
 				(at -10.414 -30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -688,7 +803,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+			(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
 				(at -12.7 -43.18 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -711,7 +826,7 @@
 					)
 				)
 			)
-			(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 160KB RAM, 80 MHz, 1.71-3.6V, 52 GPIO, UFBGA64"
+			(property "Description" "IC MCU 32BIT 512KB FLASH 64LQFP"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -743,7 +858,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*UFBGA*5x5mm*Layout8x8*P0.5mm*"
+			(property "ki_fp_filters" "LQFP*10x10mm*P0.5mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -754,7 +869,7 @@
 					)
 				)
 			)
-			(symbol "STM32L452REIx_0_1"
+			(symbol "STM32L452RET6_0_1"
 				(rectangle
 					(start -12.7 -43.18)
 					(end 15.24 45.72)
@@ -767,7 +882,7 @@
 					)
 				)
 			)
-			(symbol "STM32L452REIx_1_1"
+			(symbol "STM32L452RET6_1_1"
 				(pin bidirectional line
 					(at -15.24 -12.7 0)
 					(length 2.54)
@@ -778,7 +893,7 @@
 							)
 						)
 					)
-					(number "A1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -797,7 +912,7 @@
 							)
 						)
 					)
-					(number "A2"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -820,7 +935,7 @@
 							)
 						)
 					)
-					(number "A3"
+					(number "62"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -845,7 +960,7 @@
 							)
 						)
 					)
-					(number "A4"
+					(number "56"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -872,7 +987,7 @@
 							)
 						)
 					)
-					(number "A5"
+					(number "55"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -898,7 +1013,7 @@
 							)
 						)
 					)
-					(number "A6"
+					(number "50"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -928,7 +1043,7 @@
 							)
 						)
 					)
-					(number "A7"
+					(number "49"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -951,7 +1066,7 @@
 							)
 						)
 					)
-					(number "A8"
+					(number "46"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -973,7 +1088,7 @@
 							)
 						)
 					)
-					(number "B1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -993,7 +1108,7 @@
 							)
 						)
 					)
-					(number "B2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1011,7 +1126,7 @@
 							)
 						)
 					)
-					(number "B3"
+					(number "61"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1034,7 +1149,7 @@
 							)
 						)
 					)
-					(number "B4"
+					(number "60"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1052,7 +1167,7 @@
 							)
 						)
 					)
-					(number "B5"
+					(number "54"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1076,7 +1191,7 @@
 							)
 						)
 					)
-					(number "B6"
+					(number "52"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1100,7 +1215,7 @@
 							)
 						)
 					)
-					(number "B7"
+					(number "51"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1124,7 +1239,7 @@
 							)
 						)
 					)
-					(number "B8"
+					(number "45"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1148,7 +1263,7 @@
 							)
 						)
 					)
-					(number "C1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1167,7 +1282,7 @@
 							)
 						)
 					)
-					(number "C2"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1185,7 +1300,7 @@
 							)
 						)
 					)
-					(number "C3"
+					(number "59"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1211,7 +1326,7 @@
 							)
 						)
 					)
-					(number "C4"
+					(number "57"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1240,7 +1355,7 @@
 							)
 						)
 					)
-					(number "C5"
+					(number "53"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1263,7 +1378,7 @@
 							)
 						)
 					)
-					(number "C6"
+					(number "43"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1286,7 +1401,7 @@
 							)
 						)
 					)
-					(number "C7"
+					(number "42"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1311,7 +1426,7 @@
 							)
 						)
 					)
-					(number "C8"
+					(number "44"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1338,7 +1453,7 @@
 							)
 						)
 					)
-					(number "D1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1357,7 +1472,7 @@
 							)
 						)
 					)
-					(number "D2"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1375,7 +1490,7 @@
 							)
 						)
 					)
-					(number "D3"
+					(number "58"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1402,7 +1517,7 @@
 							)
 						)
 					)
-					(number "D4"
+					(number "31"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1420,7 +1535,7 @@
 							)
 						)
 					)
-					(number "D5"
+					(number "47"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1438,7 +1553,7 @@
 							)
 						)
 					)
-					(number "D6"
+					(number "63"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1456,7 +1571,7 @@
 							)
 						)
 					)
-					(number "D7"
+					(number "41"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1480,7 +1595,7 @@
 							)
 						)
 					)
-					(number "D8"
+					(number "40"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1503,7 +1618,7 @@
 							)
 						)
 					)
-					(number "E1"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1521,7 +1636,7 @@
 							)
 						)
 					)
-					(number "E2"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1545,7 +1660,7 @@
 							)
 						)
 					)
-					(number "E3"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1569,7 +1684,7 @@
 							)
 						)
 					)
-					(number "E4"
+					(number "32"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1587,7 +1702,7 @@
 							)
 						)
 					)
-					(number "E5"
+					(number "48"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1605,7 +1720,7 @@
 							)
 						)
 					)
-					(number "E6"
+					(number "64"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1623,7 +1738,7 @@
 							)
 						)
 					)
-					(number "E7"
+					(number "38"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1645,7 +1760,7 @@
 							)
 						)
 					)
-					(number "E8"
+					(number "39"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1666,7 +1781,7 @@
 							)
 						)
 					)
-					(number "F1"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1684,7 +1799,7 @@
 							)
 						)
 					)
-					(number "F2"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1706,7 +1821,7 @@
 							)
 						)
 					)
-					(number "F3"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1734,7 +1849,7 @@
 							)
 						)
 					)
-					(number "F4"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1760,7 +1875,7 @@
 							)
 						)
 					)
-					(number "F5"
+					(number "26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1787,7 +1902,7 @@
 							)
 						)
 					)
-					(number "F6"
+					(number "37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1809,7 +1924,7 @@
 							)
 						)
 					)
-					(number "F7"
+					(number "36"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1835,7 +1950,7 @@
 							)
 						)
 					)
-					(number "F8"
+					(number "35"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1862,7 +1977,7 @@
 							)
 						)
 					)
-					(number "G1"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1885,7 +2000,7 @@
 							)
 						)
 					)
-					(number "G2"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1914,7 +2029,7 @@
 							)
 						)
 					)
-					(number "G3"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1941,7 +2056,7 @@
 							)
 						)
 					)
-					(number "G4"
+					(number "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1969,7 +2084,7 @@
 							)
 						)
 					)
-					(number "G5"
+					(number "27"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1998,7 +2113,7 @@
 							)
 						)
 					)
-					(number "G6"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2022,7 +2137,7 @@
 							)
 						)
 					)
-					(number "G7"
+					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2050,7 +2165,7 @@
 							)
 						)
 					)
-					(number "G8"
+					(number "34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2078,7 +2193,7 @@
 							)
 						)
 					)
-					(number "H1"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2096,7 +2211,7 @@
 							)
 						)
 					)
-					(number "H2"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2124,7 +2239,7 @@
 							)
 						)
 					)
-					(number "H3"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2151,7 +2266,7 @@
 							)
 						)
 					)
-					(number "H4"
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2177,7 +2292,7 @@
 							)
 						)
 					)
-					(number "H5"
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2198,7 +2313,7 @@
 							)
 						)
 					)
-					(number "H6"
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2220,7 +2335,7 @@
 							)
 						)
 					)
-					(number "H7"
+					(number "30"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2246,7 +2361,7 @@
 							)
 						)
 					)
-					(number "H8"
+					(number "33"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5502,7 +5617,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_ST_STM32L4:STM32L452REIx")
+		(lib_id "Leafony:STM32L452RET6")
 		(at 127 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -5523,7 +5638,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32L452REI6"
+		(property "Value" "STM32L452RET6"
 			(at 105.41 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5534,7 +5649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
 			(at 114.3 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -5557,7 +5672,7 @@
 				)
 			)
 		)
-		(property "Description" "IC MCU 32BIT 512KB FLASH 64UFBGA"
+		(property "Description" "IC MCU 32BIT 512KB FLASH 64LQFP"
 			(at 127 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5568,7 +5683,7 @@
 				)
 			)
 		)
-		(property "MPN" "STM32L452REI6"
+		(property "MPN" "STM32L452RET6"
 			(at 127 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5590,196 +5705,207 @@
 				)
 			)
 		)
-		(pin "G8"
+		(property "PRICE" "937.35 JPY @ 100 (DigiKey JP, 2026-11-20)"
+			(at 127 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "34"
 			(uuid "3b0b489c-ac8d-4b23-9118-31f1950a6be8")
 		)
-		(pin "D7"
+		(pin "41"
 			(uuid "9f34a6f4-d0ff-4610-8ae9-8f63cb6d18f4")
 		)
-		(pin "D6"
+		(pin "63"
 			(uuid "a7ffaf70-65f3-4912-8ae3-4d380c88e0f6")
 		)
-		(pin "H5"
+		(pin "24"
 			(uuid "c7437ab9-ce9a-4e18-a4b9-ca1d19e4ed3c")
 		)
-		(pin "G1"
+		(pin "11"
 			(uuid "81b07d05-e230-46f9-95b8-bf8c929e99ca")
 		)
-		(pin "F8"
+		(pin "35"
 			(uuid "873c7ce5-4209-456a-9f3d-4a8246c0c36f")
 		)
-		(pin "B8"
+		(pin "45"
 			(uuid "2477dca3-6839-49b3-b810-fad6afdb3d6c")
 		)
-		(pin "C7"
+		(pin "42"
 			(uuid "c25c4e6c-3d3c-4b6f-8496-2a9c11b65c79")
 		)
-		(pin "G7"
+		(pin "29"
 			(uuid "3532c00f-c136-49bc-bcf7-8ccb9308a705")
 		)
-		(pin "A7"
+		(pin "49"
 			(uuid "ad93a40f-ab3b-496f-b70a-7a74c6bf6216")
 		)
-		(pin "G2"
+		(pin "14"
 			(uuid "c92fed2e-7be0-4a5e-8bd2-06cae41f0753")
 		)
-		(pin "H4"
+		(pin "23"
 			(uuid "05d3edc1-5260-46da-8d9b-53cd4b43126e")
 		)
-		(pin "C1"
+		(pin "5"
 			(uuid "eea2053f-0710-4191-8acf-f3d6e2577c25")
 		)
-		(pin "A8"
+		(pin "46"
 			(uuid "b9266e06-0d98-45ae-81b3-daa0778e3af6")
 		)
-		(pin "E5"
+		(pin "48"
 			(uuid "cb92ecc8-a9f9-4834-b9b2-89ab916123b2")
 		)
-		(pin "C8"
+		(pin "44"
 			(uuid "bee59605-e711-49e2-bf75-4738ed6a2e15")
 		)
-		(pin "G3"
+		(pin "17"
 			(uuid "de108970-2a49-4b79-9865-d3f8b0f80db4")
 		)
-		(pin "E4"
+		(pin "32"
 			(uuid "092a3433-fe43-46ae-8fa4-5222d01c357c")
 		)
-		(pin "H8"
+		(pin "33"
 			(uuid "2c23fed7-8050-41f8-bc5f-55fb07f97d7e")
 		)
-		(pin "D5"
+		(pin "47"
 			(uuid "3f1d9169-7dea-4633-8610-3f5ec98bc8d3")
 		)
-		(pin "D4"
+		(pin "31"
 			(uuid "b3bcd0cf-013d-4154-aa1c-20f3377d0a53")
 		)
-		(pin "D3"
+		(pin "58"
 			(uuid "bc801057-fcf3-462c-8e1a-907bce2dedd9")
 		)
-		(pin "C2"
+		(pin "18"
 			(uuid "6302e232-add1-4f23-8910-b87a015d93b5")
 		)
-		(pin "G4"
+		(pin "22"
 			(uuid "ea2a3249-7ab8-4f97-a523-b79d3337c574")
 		)
-		(pin "B6"
+		(pin "52"
 			(uuid "ae78e3a7-6fd2-4060-ab0a-44426492d522")
 		)
-		(pin "H2"
+		(pin "15"
 			(uuid "48db7885-a638-40b5-a67a-99116f665838")
 		)
-		(pin "G6"
+		(pin "28"
 			(uuid "2c81b26b-d72a-4ae3-918c-758a045ac0e1")
 		)
-		(pin "E8"
+		(pin "39"
 			(uuid "0273cc39-4c50-4b33-84c7-0b52e3d58374")
 		)
-		(pin "E3"
+		(pin "8"
 			(uuid "59db8211-e62a-48ec-a594-967d11caac5c")
 		)
-		(pin "F1"
+		(pin "12"
 			(uuid "5b56a6e0-6e87-488f-942d-8fd6df810a37")
 		)
-		(pin "C4"
+		(pin "57"
 			(uuid "9bb09ff0-be8d-4e70-9240-1cbbfbfb73c5")
 		)
-		(pin "B1"
+		(pin "4"
 			(uuid "383c44fc-88eb-4da8-851c-97a37c308776")
 		)
-		(pin "A5"
+		(pin "55"
 			(uuid "dacbb7d4-d7b4-4c1c-a437-41d48c3982a9")
 		)
-		(pin "C6"
+		(pin "43"
 			(uuid "fb37362b-a2ee-47ae-a7c1-f19285955b38")
 		)
-		(pin "A3"
+		(pin "62"
 			(uuid "28c02ad1-55c4-44e7-9418-0c854f1b2dcb")
 		)
-		(pin "A4"
+		(pin "56"
 			(uuid "9404383f-a51e-4cb5-880e-be067c3b369a")
 		)
-		(pin "E1"
+		(pin "7"
 			(uuid "65c4eebe-2eeb-4aa0-9fc0-c9534a6b8c42")
 		)
-		(pin "H3"
+		(pin "20"
 			(uuid "fdfc57f9-dab1-4ec6-854b-92b2603f13a6")
 		)
-		(pin "A6"
+		(pin "50"
 			(uuid "b1852352-ab5a-4b60-b7a7-b0ff77b8e456")
 		)
-		(pin "E6"
+		(pin "64"
 			(uuid "8c6a9732-dc95-4260-8df2-4b4d3789cadb")
 		)
-		(pin "C5"
+		(pin "53"
 			(uuid "cb828608-0678-4d21-9290-fb6ce3b58b4a")
 		)
-		(pin "A2"
+		(pin "2"
 			(uuid "322cf140-21ac-456c-b9e3-f60d83c893a3")
 		)
-		(pin "D8"
+		(pin "40"
 			(uuid "b2001362-d44e-4215-98a9-5f3354b066c2")
 		)
-		(pin "G5"
+		(pin "27"
 			(uuid "a1e26d10-900f-47b8-88a5-1880bfb17eb5")
 		)
-		(pin "H6"
+		(pin "25"
 			(uuid "f519c3f0-7d21-4107-b00f-104d01969368")
 		)
-		(pin "B3"
+		(pin "61"
 			(uuid "6806f081-2566-4eb7-9b93-a84eb94122c6")
 		)
-		(pin "D2"
+		(pin "19"
 			(uuid "ee0b6ea6-ae21-49a6-b5df-d953d3da7627")
 		)
-		(pin "B4"
+		(pin "60"
 			(uuid "30a6af21-8d87-443c-b24e-840c226f9c4e")
 		)
-		(pin "F5"
+		(pin "26"
 			(uuid "83895b72-444b-43d7-995e-5311ae749317")
 		)
-		(pin "A1"
+		(pin "3"
 			(uuid "c1da9f04-0960-4b71-8297-27d511cd76c8")
 		)
-		(pin "H7"
+		(pin "30"
 			(uuid "c9d0ec5b-85e2-4c17-8fc6-cff8ec8a1769")
 		)
-		(pin "F6"
+		(pin "37"
 			(uuid "df2b4cc0-8b49-415a-9e12-0a1df0ce0a9e")
 		)
-		(pin "F4"
+		(pin "21"
 			(uuid "1f49a5a4-dfd1-4f04-8e3c-e93175c1e19b")
 		)
-		(pin "H1"
+		(pin "13"
 			(uuid "4df60500-0061-40a8-82e3-e6a5171135df")
 		)
-		(pin "F3"
+		(pin "16"
 			(uuid "24f23cc0-f19a-4093-b957-58e35c4f2430")
 		)
-		(pin "B5"
+		(pin "54"
 			(uuid "1c134c5c-2ff1-401d-ada3-532b075e4010")
 		)
-		(pin "F2"
+		(pin "10"
 			(uuid "1f318182-aa3a-4e09-853f-a4da5a7428a3")
 		)
-		(pin "D1"
+		(pin "6"
 			(uuid "b0a2b5be-c8ca-4a62-ba6e-12ffec7b37b7")
 		)
-		(pin "E2"
+		(pin "9"
 			(uuid "9cdac720-64c3-4c2e-b314-86fd86f56831")
 		)
-		(pin "F7"
+		(pin "36"
 			(uuid "1fbcadb6-ef7a-4f27-873a-bf0ae168210c")
 		)
-		(pin "C3"
+		(pin "59"
 			(uuid "e5abd03e-94e7-41d8-9720-430d2e6d8f91")
 		)
-		(pin "E7"
+		(pin "38"
 			(uuid "92583207-6dc1-4c62-a4fe-a7c195be8c3d")
 		)
-		(pin "B2"
+		(pin "1"
 			(uuid "aad36410-77b0-43b3-a8eb-bc0be7624f31")
 		)
-		(pin "B7"
+		(pin "51"
 			(uuid "e25d7bce-37b7-42fc-88fc-3d658c6d378f")
 		)
 		(instances
@@ -8006,4 +8132,160 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 147.320 57.150 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bff5ea91-0fb6-4e8e-8b58-51819bfcf782")
+		(property "Reference" "#FLG0101"
+			(at 147.320 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 141.2 53.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.320 57.150 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.320 57.150 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.320 57.150 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66fa502c-7b2c-4a93-bd0f-33319dc1e4d4")
+		)
+		(instances
+			(project "ap03b-stm32"
+				(path "/e2743b78-cc59-458c-8fb0-4238f348a49f/d4eb7a45-025c-4ece-b989-6e885606ee08"
+					(reference "#FLG0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 137.160 172.720 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0361ccf6-d018-4f6b-bc61-43331d19341d")
+		(property "Reference" "#FLG0102"
+			(at 137.160 170.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 144.5 175.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.160 172.720 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.160 172.720 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.160 172.720 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e624379e-bc11-4812-a03d-49d4db08a4b4")
+		)
+		(instances
+			(project "ap03b-stm32"
+				(path "/e2743b78-cc59-458c-8fb0-4238f348a49f/d4eb7a45-025c-4ece-b989-6e885606ee08"
+					(reference "#FLG0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+
 )
