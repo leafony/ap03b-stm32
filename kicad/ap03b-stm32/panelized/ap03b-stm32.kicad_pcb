@@ -1231,7 +1231,7 @@
 			(uuid "2ec95712-46cf-41bb-aba4-8c01a134a719")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/UFBGA64-5x5mm.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/STM32L452REI6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2687,7 +2687,7 @@
 			(uuid "dee911af-3d34-4457-8ed4-0c34d752a9ba")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/UFBGA64-5x5mm.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/STM32L452REI6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3467,9 +3467,9 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/SML-A12U8TT86P.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/SML-A12U8TT86.step"
 			(offset
-				(xyz 0 -0.3 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -3646,7 +3646,7 @@
 			(uuid "123be2c3-a1b3-4467-94a3-67495a5427e7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0402_1005Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4769,15 +4769,15 @@
 			(uuid "9e62896b-25d2-47ad-8b15-97dab0c143ef")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/EVQP7-KB-01P.STEP"
+		(model "${KIPRJMOD}/../lib/3dmodels/EVQ-P7B01P.step"
 			(offset
-				(xyz -0.6 -0.5 1)
+				(xyz 2.5 -1.2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -5941,9 +5941,9 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/SML-A12U8TT86P.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/SML-A12U8TT86.step"
 			(offset
-				(xyz 0 -0.3 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -6920,9 +6920,9 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/SML-A12U8TT86P.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/SML-A12U8TT86.step"
 			(offset
-				(xyz 0 -0.3 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -7767,7 +7767,7 @@
 			(uuid "af65a1a8-2352-4849-9b28-a038b1aa4688")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/DIO_RB558WMF_ROM.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/RE1C002UNTCL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9138,9 +9138,9 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/SML-A12U8TT86P.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/SML-A12U8TT86.step"
 			(offset
-				(xyz 0 -0.3 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -10396,7 +10396,7 @@
 			(uuid "5a77198f-5772-4994-a410-b61cb36ff676")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/RUC0014A.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/TS3A4751RUCR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12046,7 +12046,7 @@
 			(uuid "ad3eeeac-b8de-4a3f-be6f-c492a7da53fb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/RUC0014A.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/TS3A4751RUCR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12911,7 +12911,7 @@
 			(uuid "6a31af93-1cdc-4d54-a791-4fc8ad4a762a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/UFBGA64-5x5mm.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/STM32L452REI6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13920,7 +13920,7 @@
 			(uuid "15c598e5-5d9e-467d-bf52-8d98f2bd8bd5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/XTAL_NX2012SA_NDK.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/NX2012SA-MU00530.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16934,7 +16934,7 @@
 			(uuid "06fcd833-a394-4a7d-a3e0-9c5816dff455")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/XTAL_NX2012SA_NDK.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/NX2012SA-MU00530.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18589,7 +18589,7 @@
 			(uuid "e35c0efd-7601-482c-9912-9f43f6701740")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/UFBGA64-5x5mm.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/STM32L452REI6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19847,7 +19847,7 @@
 			(uuid "1b0b28e5-c228-4083-855d-cd2eda9eafc8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/RUC0014A.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/TS3A4751RUCR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22075,15 +22075,15 @@
 			(uuid "75c90551-1ee4-4301-bd97-22f8ec2c810c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/EVQP7-KB-01P.STEP"
+		(model "${KIPRJMOD}/../lib/3dmodels/EVQ-P7B01P.step"
 			(offset
-				(xyz -0.6 -0.5 1)
+				(xyz 2.5 -1.2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -23445,7 +23445,7 @@
 			(uuid "cdb6de09-fc06-4256-988d-9b2fa3a86b3c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/CUS-12TB.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/CUS-12TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23453,7 +23453,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -24313,7 +24313,7 @@
 			(uuid "de5e4966-0024-4abf-86c1-6a0f2fd9d29c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0402_1005Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25178,7 +25178,7 @@
 			(uuid "3466ae8a-5828-4140-9d4a-5c7411d8a416")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/UFBGA64-5x5mm.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/STM32L452REI6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25710,15 +25710,15 @@
 			(uuid "5ef88129-52c5-44d1-bc1b-fb8f7d371cda")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/EVQP7-KB-01P.STEP"
+		(model "${KIPRJMOD}/../lib/3dmodels/EVQ-P7B01P.step"
 			(offset
-				(xyz -0.6 -0.5 1)
+				(xyz 2.5 -1.2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -26159,7 +26159,7 @@
 			(uuid "292adaf4-9c64-4972-a8df-e3fe17799196")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/DIO_RB558WMF_ROM.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/RE1C002UNTCL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29511,7 +29511,7 @@
 			(uuid "d4f09cdf-d1d0-4e4c-9f83-354623add4fc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/UFBGA64-5x5mm.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/STM32L452REI6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29960,7 +29960,7 @@
 			(uuid "22c7a4f6-295e-4a45-8e13-0c89bb109c81")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/DIO_RB558WMF_ROM.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/RE1C002UNTCL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30293,15 +30293,15 @@
 			(uuid "63ed544c-0871-4630-b0ef-71ae24b81150")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/EVQP7-KB-01P.STEP"
+		(model "${KIPRJMOD}/../lib/3dmodels/EVQ-P7B01P.step"
 			(offset
-				(xyz -0.6 -0.5 1)
+				(xyz 2.5 -1.2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -35644,7 +35644,7 @@
 			(uuid "246f6ce1-4715-42b8-8e6a-b518e619ad1a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/CUS-12TB.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/CUS-12TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35652,7 +35652,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -35784,15 +35784,15 @@
 			(uuid "9bbd6ebe-ad11-457f-b4d6-62b7d150cbec")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/EVQP7-KB-01P.STEP"
+		(model "${KIPRJMOD}/../lib/3dmodels/EVQ-P7B01P.step"
 			(offset
-				(xyz -0.6 -0.5 1)
+				(xyz 2.5 -1.2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -38539,7 +38539,7 @@
 			(uuid "e6263320-d1ec-4d03-8c1c-754bad26de6a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/RUC0014A.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/TS3A4751RUCR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39996,7 +39996,7 @@
 			(uuid "7d0a0701-4c45-44a6-a055-4386ca570e45")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/RUC0014A.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/TS3A4751RUCR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -41210,7 +41210,7 @@
 			(uuid "c93467fd-f25e-473f-b8c7-48d73ec0026c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/XTAL_NX2012SA_NDK.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/NX2012SA-MU00530.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -44543,7 +44543,7 @@
 			(uuid "f42a0754-3829-4b50-9a7a-fcd651761fbf")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/DIO_RB558WMF_ROM.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/RE1C002UNTCL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -45484,7 +45484,7 @@
 			(uuid "58d313fb-c46b-4b00-a5b8-a2c657da69e5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/DIO_RB558WMF_ROM.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/RE1C002UNTCL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -47141,7 +47141,7 @@
 			(uuid "6e5319cb-e4c1-47fa-a2dd-f3d8ab2a878f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/RUC0014A.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/TS3A4751RUCR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -47360,7 +47360,7 @@
 			(uuid "84eedfce-4405-40f8-a73f-30b919d84e99")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/XTAL_NX2012SA_NDK.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/NX2012SA-MU00530.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -49234,7 +49234,7 @@
 			(uuid "5bf92ec6-5f1c-4b12-a639-94a460ee9841")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/CUS-12TB.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/CUS-12TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -49242,7 +49242,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -52280,9 +52280,9 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/SML-A12U8TT86P.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/SML-A12U8TT86.step"
 			(offset
-				(xyz 0 -0.3 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -52658,7 +52658,7 @@
 			(uuid "d61e09b5-a6c8-4888-9545-e6578f6357fe")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0402_1005Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -52837,7 +52837,7 @@
 			(uuid "d9e9d23f-d234-4c4a-8fbf-1475d416ced5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0402_1005Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -54293,7 +54293,7 @@
 			(uuid "a40549a3-c4d7-44a1-817e-d77e2a828eb7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/UFBGA64-5x5mm.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/STM32L452REI6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -54711,7 +54711,7 @@
 			(uuid "1f52b55d-40df-41e8-91f9-7e00d61e118b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/XTAL_NX2012SA_NDK.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/NX2012SA-MU00530.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -58776,9 +58776,9 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/SML-A12U8TT86P.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/SML-A12U8TT86.step"
 			(offset
-				(xyz 0 -0.3 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -61531,7 +61531,7 @@
 			(uuid "37d1a0a2-a194-4769-b4b6-e8fc9ad45048")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/CUS-12TB.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/CUS-12TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -61539,7 +61539,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -63170,7 +63170,7 @@
 			(uuid "c2f51804-4b14-4995-9f28-b19a107cc459")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/DIO_RB558WMF_ROM.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/RE1C002UNTCL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -64428,7 +64428,7 @@
 			(uuid "840f3e1c-a77f-4338-83fb-59c70c521c4e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/RUC0014A.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/TS3A4751RUCR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -67281,7 +67281,7 @@
 			(uuid "6085278b-184e-41ac-9764-7f4797347177")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0402_1005Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -67767,7 +67767,7 @@
 			(uuid "f9568e63-8cf1-4662-8818-6dc0e9c5eaf6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/CUS-12TB.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/CUS-12TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -67775,7 +67775,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -68770,7 +68770,7 @@
 			(uuid "e59e0b63-f1e9-4978-8495-854371169693")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/XTAL_NX2012SA_NDK.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/NX2012SA-MU00530.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -69914,7 +69914,7 @@
 			(uuid "236f4e3b-c6ac-4480-ae98-c1ad121fa8a5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/DIO_RB558WMF_ROM.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/RE1C002UNTCL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -71172,7 +71172,7 @@
 			(uuid "d92d9554-b033-44dd-ba28-adf4bbfff009")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/RUC0014A.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/TS3A4751RUCR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -71550,7 +71550,7 @@
 			(uuid "4764a12c-1e6a-4be3-9c2e-fb1f098d1c3d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0402_1005Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -72325,9 +72325,9 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/SML-A12U8TT86P.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/SML-A12U8TT86.step"
 			(offset
-				(xyz 0 -0.3 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -73172,7 +73172,7 @@
 			(uuid "8b6991f5-4dbc-4f16-a4c1-3fa6039e2a0e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/DIO_RB558WMF_ROM.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/RE1C002UNTCL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -75234,7 +75234,7 @@
 			(uuid "2a31c400-59d6-4f9f-90ec-68c6a04e0d33")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0402_1005Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -77786,7 +77786,7 @@
 			(uuid "d975ce3c-bbda-4ff3-90b4-6980e0c94602")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0402_1005Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -78168,9 +78168,9 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/SML-A12U8TT86P.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/SML-A12U8TT86.step"
 			(offset
-				(xyz 0 -0.3 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -79376,7 +79376,7 @@
 			(uuid "bc24a13e-c953-4354-a875-1576327cf262")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/XTAL_NX2012SA_NDK.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/NX2012SA-MU00530.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -79663,7 +79663,7 @@
 			(uuid "75a82fcd-718d-4dbb-87ee-aa3aad94b0a8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/CUS-12TB.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/CUS-12TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -79671,7 +79671,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -80394,15 +80394,15 @@
 			(uuid "6b962e25-b70b-46c3-ba64-f572845d0d81")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/EVQP7-KB-01P.STEP"
+		(model "${KIPRJMOD}/../lib/3dmodels/EVQ-P7B01P.step"
 			(offset
-				(xyz -0.6 -0.5 1)
+				(xyz 2.5 -1.2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -81079,7 +81079,7 @@
 			(uuid "2b4c7305-8ecf-4ab4-8e58-5f77631ce02f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/CUS-12TB.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/CUS-12TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -81087,7 +81087,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -81461,9 +81461,9 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/SML-A12U8TT86P.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/SML-A12U8TT86.step"
 			(offset
-				(xyz 0 -0.3 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -81748,7 +81748,7 @@
 			(uuid "d75e966e-47f9-476f-9553-499eff9f45f0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/CUS-12TB.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/CUS-12TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -81756,7 +81756,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -83113,9 +83113,9 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/SML-A12U8TT86P.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/SML-A12U8TT86.step"
 			(offset
-				(xyz 0 -0.3 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -84037,15 +84037,15 @@
 			(uuid "57cfa64c-fc30-4b0e-b17b-5adedc0b1ded")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/EVQP7-KB-01P.STEP"
+		(model "${KIPRJMOD}/../lib/3dmodels/EVQ-P7B01P.step"
 			(offset
-				(xyz -0.6 -0.5 1)
+				(xyz 2.5 -1.2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -86091,7 +86091,7 @@
 			(uuid "cbc5c44a-e9d0-4cd7-a083-bdfa61ba67c8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/RUC0014A.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/TS3A4751RUCR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -88435,7 +88435,7 @@
 			(uuid "a30f524c-f859-4a3e-992f-5e0dad0dd08a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/UFBGA64-5x5mm.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/STM32L452REI6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -90870,15 +90870,15 @@
 			(uuid "e051515b-bd34-4473-94c7-2e7c138f8f33")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/EVQP7-KB-01P.STEP"
+		(model "${KIPRJMOD}/../lib/3dmodels/EVQ-P7B01P.step"
 			(offset
-				(xyz -0.6 -0.5 1)
+				(xyz 2.5 -1.2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -91350,7 +91350,7 @@
 			(uuid "faa6fad3-165c-496d-ad40-ca64a87aec43")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/CUS-12TB.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/CUS-12TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -91358,7 +91358,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -91569,7 +91569,7 @@
 			(uuid "8a502f6c-dae6-4fdb-a90d-316cfadd8901")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/XTAL_NX2012SA_NDK.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/NX2012SA-MU00530.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -92434,7 +92434,7 @@
 			(uuid "9b123545-9ebe-467a-a5c2-88c9bd7b5bcd")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/UFBGA64-5x5mm.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/STM32L452REI6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -93847,7 +93847,7 @@
 			(uuid "bfb5bf71-f8dd-402e-b096-6a393f879b6a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/XTAL_NX2012SA_NDK.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/NX2012SA-MU00530.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -95260,7 +95260,7 @@
 			(uuid "48797d5b-8dbe-4300-9c43-0a251f23e1d5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/XTAL_NX2012SA_NDK.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/NX2012SA-MU00530.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -96494,15 +96494,15 @@
 			(uuid "990419dc-50eb-458e-8d14-56a8297f69b8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/EVQP7-KB-01P.STEP"
+		(model "${KIPRJMOD}/../lib/3dmodels/EVQ-P7B01P.step"
 			(offset
-				(xyz -0.6 -0.5 1)
+				(xyz 2.5 -1.2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -96673,7 +96673,7 @@
 			(uuid "a1cc38b7-4f21-482f-9a05-997e7743030a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0402_1005Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -97912,7 +97912,7 @@
 			(uuid "35c97247-31ec-44e4-8b4f-f1cd9df385a3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/DIO_RB558WMF_ROM.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/RE1C002UNTCL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -98585,7 +98585,7 @@
 			(uuid "d32c021a-4a9e-413f-b597-19eb89d1b003")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/CUS-12TB.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/CUS-12TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -98593,7 +98593,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -99359,9 +99359,9 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/SML-A12U8TT86P.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/SML-A12U8TT86.step"
 			(offset
-				(xyz 0 -0.3 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -99538,7 +99538,7 @@
 			(uuid "e22cf260-fd65-4e79-ad76-b24272763c45")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0402_1005Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -100553,7 +100553,7 @@
 			(uuid "cf1e8491-e2e5-4074-8e07-dc5b8c053523")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/XTAL_NX2012SA_NDK.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/NX2012SA-MU00530.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -101593,7 +101593,7 @@
 			(uuid "f9d6597f-37a6-4982-aacb-191d1a29c40b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/DIO_RB558WMF_ROM.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/RE1C002UNTCL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -102330,15 +102330,15 @@
 			(uuid "26c1dc79-d7bd-4544-b5f2-d9583a68f46e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/EVQP7-KB-01P.STEP"
+		(model "${KIPRJMOD}/../lib/3dmodels/EVQ-P7B01P.step"
 			(offset
-				(xyz -0.6 -0.5 1)
+				(xyz 2.5 -1.2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -102978,7 +102978,7 @@
 			(uuid "96103423-7e50-4be7-b085-96f268477908")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/DIO_RB558WMF_ROM.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/RE1C002UNTCL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -103265,7 +103265,7 @@
 			(uuid "6ede179b-4ca9-4f75-aece-64997baa8a6c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/CUS-12TB.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/CUS-12TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -103273,7 +103273,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -104427,7 +104427,7 @@
 			(uuid "f32fd08a-75c7-4448-8ef2-435affed47eb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/UFBGA64-5x5mm.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/STM32L452REI6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -104799,7 +104799,7 @@
 			(uuid "634ce879-c536-4934-9b23-03ff634c4234")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0402_1005Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -106250,7 +106250,7 @@
 			(uuid "c8d647ab-1531-462e-945c-672f4f9e6444")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/RUC0014A.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/TS3A4751RUCR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -106390,15 +106390,15 @@
 			(uuid "740ecd96-3903-487b-93ab-3d94e15b4332")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/EVQP7-KB-01P.STEP"
+		(model "${KIPRJMOD}/../lib/3dmodels/EVQ-P7B01P.step"
 			(offset
-				(xyz -0.6 -0.5 1)
+				(xyz 2.5 -1.2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -107660,7 +107660,7 @@
 			(uuid "227680d6-902f-44e0-8e12-0bbc0e7913e3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/CUS-12TB.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/CUS-12TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -107668,7 +107668,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -110719,7 +110719,7 @@
 			(uuid "0253fb30-623c-4d6f-90f7-e6f3bc7f57a5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/UFBGA64-5x5mm.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/STM32L452REI6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -111367,7 +111367,7 @@
 			(uuid "1ae1291a-2be5-481f-8bb6-763a936a2338")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/DIO_RB558WMF_ROM.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/RE1C002UNTCL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -112967,7 +112967,7 @@
 			(uuid "65ae6c50-7fe0-4f1e-9359-3f6da773382f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/XTAL_NX2012SA_NDK.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/NX2012SA-MU00530.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -115272,15 +115272,15 @@
 			(uuid "f21e9801-a9fe-4c0b-90aa-c1d4d7d74a19")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/EVQP7-KB-01P.STEP"
+		(model "${KIPRJMOD}/../lib/3dmodels/EVQ-P7B01P.step"
 			(offset
-				(xyz -0.6 -0.5 1)
+				(xyz 2.5 -1.2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -116530,7 +116530,7 @@
 			(uuid "470f34c7-96c9-4899-b3f7-02c287ae8321")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/RUC0014A.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/TS3A4751RUCR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -116709,7 +116709,7 @@
 			(uuid "a7ab8e69-137a-490c-b473-cd538449aa4a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0402_1005Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -118070,7 +118070,7 @@
 			(uuid "6ed24d6e-1384-4093-8f68-afa1337c41ba")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/UFBGA64-5x5mm.step"
+		(model "${KIPRJMOD}/../lib/3dmodels/STM32L452REI6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -122895,7 +122895,7 @@
 			(uuid "8b489990-9b5c-47f2-9953-295c3063834c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/RUC0014A.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/TS3A4751RUCR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -124453,9 +124453,9 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3dmodels/SML-A12U8TT86P.stp"
+		(model "${KIPRJMOD}/../lib/3dmodels/SML-A12U8TT86.step"
 			(offset
-				(xyz 0 -0.3 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)

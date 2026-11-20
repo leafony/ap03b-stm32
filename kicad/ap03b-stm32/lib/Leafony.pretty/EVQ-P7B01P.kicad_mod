@@ -129,4 +129,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "a83ad791-1e28-4756-a213-b0eb751ae2f4")
 	)
+	(model "${KIPRJMOD}/lib/3dmodels/EVQ-P7B01P.step"
+		(offset
+			(xyz 2.5 -1.2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

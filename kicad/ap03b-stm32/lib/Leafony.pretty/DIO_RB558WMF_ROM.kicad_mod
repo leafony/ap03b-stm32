@@ -437,7 +437,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "419a570f-257e-4a7a-98e1-c67891cd8ac6")
 	)
-	(model "${KIPRJMOD}/lib/3dmodels/DIO_RB558WMF_ROM.step"
+	(model "${KIPRJMOD}/lib/3dmodels/RE1C002UNTCL.step"
 		(offset
 			(xyz 0 0 0)
 		)

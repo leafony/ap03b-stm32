@@ -1210,7 +1210,7 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "d8d1fb89-947c-4a36-b894-4ff99df60c28")
 	)
-	(model "${KIPRJMOD}/lib/3dmodels/RUC0014A.stp"
+	(model "${KIPRJMOD}/lib/3dmodels/TS3A4751RUCR.step"
 		(offset
 			(xyz 0 0 0)
 		)
